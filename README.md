@@ -1,6 +1,8 @@
-# Dockin Station
+# Docking Station
 
 Docking Station for drills.
+
+![full_image](images/full_image.jpg)
 
 ## In short
 
@@ -24,6 +26,8 @@ Components of our docking station:
 
 And of course, the drill itself.
 
+![full_image](images/docking_station_schemat.png)
+
 ### Station settings
 
 The user can choose from 3 different drill material, from 6 different bit diameters and from 3 screw sizes.
@@ -46,7 +50,7 @@ Screw sizes:
 
 After we started the station, we can connect to it with our **smartphone**. For this, we need an application from the phones application store.
 
-The name of the application is **Remote XY**. In the application we can connect to the station via **wifi**. After we connected to the station, a nice user interface will show up.
+The name of the application is **[Remote XY](https://remotexy.com/)**. In the application we can connect to the station via **wifi**. After we connected to the station, a nice user interface will show up.
 
 Hier we have 3 pages:
 
@@ -59,6 +63,8 @@ On the Materials page we can set the **materials**.
 On the Drill page we can set the bit **diameter**.
 
 On the last page, the Screw page, we can set the **size** for the screw.
+
+![full_image](images/mobile_application_UI.png)
 
 ### Manual settings
 
