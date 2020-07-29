@@ -10,7 +10,7 @@ With our **smartphone** and **docking station**, we created a ***â€œsmart drillâ
 
 The station **calculates** the **optimal** **torque** for the drill.
 
-If it reaches a maximum torque, the drill stoppes for a second.
+If it reaches a maximum torque, the drill stop for a second.
 
 ## Description
 
@@ -38,7 +38,7 @@ Materials:
 - aluminium
 - plastic
 
-The bit diameters are from 1mm up to 6mm.
+The bit diameters are from 1 mm up to 6 mm.
 
 Screw sizes:
 
@@ -50,7 +50,7 @@ Screw sizes:
 
 After we started the station, we can connect to it with our **smartphone**. For this, we need an application from the phones application store.
 
-The name of the application is **[Remote XY](https://remotexy.com/)**. In the application we can connect to the station via **wifi**. After we connected to the station, a nice user interface will show up.
+The name of the application is **[Remote XY](https://remotexy.com/)**. In the application we can connect to the station via **WIFI**. After we connected to the station, a nice user interface will show up.
 
 Hier we have 3 pages:
 
@@ -84,7 +84,7 @@ For the mobile application, we used the **RemoteXY** **library**. On their websi
 
 *Because we used the free version for this, we can use the application only for 30 seconds.*
 
-This library communicates with the **ESP-01** via **wifi**. We set the *SSID* to `BOSCH`, the *password* to `123456` and the *port* *number* to `6377`.
+This library communicates with the **ESP-01** via **WIFI**. We set the *SSID* to `BOSCH`, the *password* to `123456` and the *port* *number* to `6377`.
 
 On the user interface, we only have *3 select elements*. These are defined in the `RemoteXY` struct.
 
@@ -113,3 +113,4 @@ At the end of this section, we are calculating the rigth torque for the drill.
 
 ### Torque
 
+Calculating the ideal cutting speed for the given materials, we obtained the ideal speed for the drill bits of different diameters.
